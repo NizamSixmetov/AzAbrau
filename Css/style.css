@@ -1,0 +1,330 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --white-text: #FFFFFF;
+    --Index: calc(1vh + 1vw);
+}
+
+/* BACKGROUND COLOR */
+.bgColor {
+    background-color: #F4E5D4;
+}
+
+.max-div {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.footerBg {
+    background-color: #E7D2BB;
+}
+
+/* BACKGROUND COLOR */
+
+
+/* .container {
+    background-image: url("../img/home-page/andrea-cairone-unsplash.svg");
+    height: 150vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+/* MAIN START */
+.container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.container img {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.child {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.child {
+    color: var(--white-text);
+    padding-top: calc(var(--Index) *15);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.child p {
+    color: #030000;
+    text-align: center;
+    font-family: Legan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 35%;
+    margin-top: 35px;
+}
+
+.mouse-icon {
+    margin-top: calc(var(--Index) * 15);
+    margin-bottom: calc(var(--Index) * 15);
+}
+
+.child .twoP {
+    color: #FFF;
+    text-align: center;
+    font-family: Legan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
+    margin-top: 36px;
+}
+
+/* MAIN END */
+/* HAQQIMIZDA START */
+
+.haqqimizda {
+    display: flex;
+    margin-top: calc(var(--Index) * 10);
+    padding: calc(var(--Index) * 4);
+    justify-content: center;
+    text-align: center;
+    gap: calc(var(--Index) *5);
+}
+
+.haqqimizda h2 {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.65px;
+}
+
+.haqqimizda .fat-p {
+    color: #130F02;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: calc(var(--Index) * 1.5);
+}
+
+.haqqimizda p {
+    color: #130F02;
+    text-align: center;
+    font-family: Legan;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 401px;
+}
+
+.haqqimizda button {
+    width: 185px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: calc(var(--Index) * 2);
+    border: 1px solid #974D24;
+    border-radius: 8px;
+}
+
+.haqqimizda button a {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pImage {
+    position: absolute;
+    z-index: 0;
+    left: -50px;
+    top: 470px;
+}
+
+.haqqimizda {
+    position: relative;
+}
+
+/* HAQQIMIZDA END */
+/* MEHSULLARIMIZ START */
+
+.mehsullarimiz h2 {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.65px;
+    padding-top: calc(var(--Index) * 2);
+}
+
+.mehsullar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: calc(var(--Index) * 3);
+}
+
+.mehsullarimiz {
+    padding: 3.25rem;
+}
+
+.mehsullarimiz .text {
+    align-items: center;
+    text-align: center;
+}
+
+.mehsullarimiz .text .fat-p2 {
+    color: #130F02;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.mehsullarimiz .text p {
+    color: #130F02;
+    text-align: center;
+    font-family: Mondia;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: calc(var(--Index) * 0.8);
+}
+
+.mehsullarimiz .text button {
+    width: 185px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #974D24;
+    border-radius: 8px;
+    margin-top: calc(var(--Index) *2);
+    background-color: rgba(151, 77, 36, 0.00);
+}
+
+.mehsullarimiz .text button a {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mehsullar {
+    position: relative;
+}
+
+.pImage2 {
+    position: absolute;
+    z-index: 1;
+    right: -45px;
+    top: 330px;
+}
+
+/* MEHSULLARIMIZ END */
+/* GIPHY START */
+.giphy video {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: clip;
+}
+
+.giphy {
+    position: relative;
+}
+
+.giphy video {
+    position: absolute;
+    z-index: 0;
+}
+
+.giphy h2 {
+    color: #FAFAFD;
+    font-family: Arno Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75px;
+    width: 35%;
+    padding-top: calc(var(--Index) * 8);
+    margin-left: calc(var(--Index) *2);
+    position: relative;
+}
+
+.giphy p {
+    color: #FFF;
+    font-family: Legan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 40%;
+    margin-top: calc(var(--Index) * 0.2);
+    margin-left: calc(var(--Index) *2);
+    position: relative;
+}
+
+.giphy button {
+    width: 11.5625rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    margin-top: calc(var(--Index) * 3);
+    margin-left: calc(var(--Index) *2);
+    border-radius: 8px;
+    background-color: rgb(250, 250, 253, 0.00);
+    border: 1px solid #FAFAFD;
+    margin-bottom: calc(var(--Index) * 8);
+    position: relative;
+}
+
+.giphy button a {
+    color: #FAFAFD;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* GIPHY END */
+/* BRENDLER START */
+/* BRENDLER END */
+
+
+/* XEBERLER START */
+/* XEBERLER END */

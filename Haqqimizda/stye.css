@@ -1,0 +1,314 @@
+@import url(../Css/header.css);
+@import url(../Css/footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bgColor {
+    background: #F4E5D4;
+}
+
+/* HEADER START */
+/* header {
+    background-color: #292929;
+}
+
+.search-btn button {
+    background-color: #292929;
+} */
+
+/* HEADER END */
+/* MAIN START */
+
+
+/* CONTAINER-2 START */
+
+main .container-2 {
+    display: flex;
+    margin-top: calc(var(--index) * 8);
+    padding-top: calc(var(--index) * 1);
+    padding-bottom: calc(var(--index) * 3);
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+main .container-2 a {
+    color: #4C192A;
+    font-family: Legan;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .container-2 .child {
+    color: #BEBBBB;
+    font-family: Legan;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* CONTAINER-2 END */
+/* INFO-1 START */
+
+main .info-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+}
+
+main .info-1 h2 {
+    color: #974D24;
+    font-family: Arno Pro;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 18%;
+}
+
+main .info-1 .posImage {
+    position: absolute;
+    z-index: 0;
+    left: 0.8rem;
+    bottom: 7rem;
+}
+
+/* INFO-1 END */
+/* INFO-1P START */
+
+main .info-1P {
+    width: 50rem;
+    text-align: left;
+    align-items: center;
+    margin: 0rem 9rem;
+    background-color: #E7D2BB;
+    padding: 3.6rem;
+}
+
+main .info-1P p {
+    width: 45rem;
+}
+
+/* INFO-1P END */
+/* INFO-2 START */
+
+
+main .info-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 5rem;
+    margin-top: 6.5rem;
+}
+
+main .info-2 .posImage2 {
+    position: absolute;
+    right: 5.7rem;
+    bottom: 7rem;
+}
+
+main .info-2 h2 {
+    width: 30%;
+    color: #974D24;
+    font-family: Arno Pro;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* INFO-2 END */
+/* INFO-2P START */
+main .info-2P {
+    width: 50rem;
+    text-align: left;
+    align-items: center;
+    margin: 0rem 23rem;
+    background-color: #E7D2BB;
+    padding: 3.6rem;
+}
+
+main .info-2P p {
+    width: 45rem;
+}
+
+/* INFO-2P END */
+/* INFO-3 START */
+
+main .info-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+    padding: 1rem;
+}
+
+main .info-3 h2 {
+    color: #974D24;
+    font-family: Arno Pro;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 14%;
+}
+
+main .info-3 .posImage3 {
+    position: absolute;
+    z-index: 0;
+    left: 0.8rem;
+    bottom: 7rem;
+}
+
+
+/* INFO-3 END */
+/* INFO-3P START */
+main .info-3P {
+    width: 50rem;
+    text-align: left;
+    align-items: center;
+    margin: 0 9rem;
+    background-color: #E7D2BB;
+    padding: 3.6rem;
+}
+
+main .info-3P p {
+    width: 45rem;
+}
+
+/* INFO-3P END */
+/* AWARDS START */
+
+main .awards h2 {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.10313rem;
+    margin-top: 7rem;
+}
+
+main .awards .award {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .awards .award .award-card p {
+    color: #292929;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    margin: 0.5rem
+}
+
+/* AWARDS EBD */
+/* AWARDS-2 START */
+
+main .awards-2 h2 {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.10313rem;
+    margin-top: 7rem;
+}
+
+main .awards-2 h3 {
+    color: #974D24;
+    font-family: Arno Pro;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05625rem;
+    margin-left: 5rem;
+}
+
+main .awards-2 .award {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .awards-2 .award .award-card p {
+    color: #292929;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    margin: 0.5rem
+}
+
+/* AWARDS-2 END */
+/* AWARDS-3 START */
+
+main .awards-3 h3 {
+    color: #974D24;
+    font-family: Arno Pro;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05625rem;
+    margin-left: 5rem;
+}
+
+main .awards-3 .award {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .awards-3 .award .award-card p {
+    color: #292929;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    margin: 0.5rem
+}
+
+/* AWARDS-3 END */
+/* MAIN END */
+/* FOOTER START */
+/* FOOTER END */

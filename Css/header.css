@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --headerColor : #030303;
+    --navBarColor: #E4E4E4;
+    --marginTop: 1.25rem;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--headerColor);
+    padding: 10px 0;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 1.8rem;
+    margin-top: var(--marginTop);
+}
+.nav-bar ul li a{
+    color: var(--navBarColor);
+    cursor: pointer;
+}
+.search-btn button{
+    margin-top: var(--marginTop);
+    background-color: var(--headerColor);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.social-network{
+    margin-top: var(--marginTop);
+    display: flex;
+    gap: 0.9rem;
+}

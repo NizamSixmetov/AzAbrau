@@ -1,0 +1,155 @@
+@import url(../Css/header.css);
+@import url(../Css/footer.css);
+
+
+:root {
+    --index: calc(1vw + 1vh)
+}
+
+main {
+    background-color: #F4E5D4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-Position img {
+    width: 100%;
+}
+
+
+/* CAP START */
+
+.image-Position .container .cap h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: calc(var(--index) * 13);
+    left: calc(var(--index) * 19);
+}
+
+/* CAP END */
+/* CONTAINER-2 START */
+
+main .container-2 {
+    display: flex;
+    /* margin-top: calc(var(--index) * 8); */
+    padding-top: calc(var(--index) * 1);
+    padding-bottom: calc(var(--index) * 3);
+    padding-left: 5rem;
+}
+
+main .container-2 a {
+    color: #4C192A;
+    font-family: Legan;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .container-2 .child {
+    color: #BEBBBB;
+    font-family: Legan;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* CONTAINER-2 END */
+
+
+h2 {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+}
+
+
+/* .left-flex{
+    display: flex;
+} */
+
+
+/* MAPLOCATION START */
+.mapLocation {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+.mapLocation .left {
+    border-top: 2px solid #E7D2BB;
+    /* border-right: 2px solid #E7D2BB; */
+    border-bottom: 2px solid #E7D2BB;
+}
+
+.mapLocation .left h3 {
+    color: #974D24;
+    font-family: Arno Pro;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.mapLocation .left h4 {
+    color: #4C192A;
+    font-family: Mondia;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1rem;
+}
+
+.mapLocation .left p {
+    color: #4C192A;
+    font-family: Legan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+
+.mapLocation .left a {
+    color: #4C192A;
+    font-family: Mondia;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: block;
+    text-align: right;
+    margin-left: 20rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mapLocation .right iframe{
+    padding-top: 0.2rem;
+}
+
+
+/* MAPLOCATION END */

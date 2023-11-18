@@ -1,0 +1,101 @@
+@import url(../Css/header.css);
+@import url(../Css/footer.css);
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main{
+    background-color: #F4E5D4;
+}
+
+
+
+/* CONTAINER 2-START */
+
+main .container-2 {
+    display: flex;
+    margin-top: calc(var(--index) * 8);
+    padding-top: calc(var(--index) * 1);
+    padding-bottom: calc(var(--index) * 3);
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+}
+
+main .container-2 a {
+    color: #4C192A;
+    font-family: Legan;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .container-2 .child {
+    color: #4C192A;
+    font-family: Legan;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .container-2 .child-2 {
+    color: #BEBBBB;
+    font-family: Legan;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* CONTAINER 2-END */
+/* SINGLE-PAGE-MAIN START */
+
+
+
+.single-Page-Main{
+    padding-bottom: 5rem;
+}
+
+.single-Page-Main h1 {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    letter-spacing: 0.0625rem;
+}
+
+.single-Page-Main img {
+    width: 100%;
+    margin-top: 1.8rem;
+}
+
+.single-Page-Main .firstP {
+    color: rgba(76, 25, 42, 0.45);
+    font-family: Legan;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    margin-top: 1.2rem;
+}
+
+.single-Page-Main .twoP {
+    color: #4C192A;
+    text-align: center;
+    font-family: Futura;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    margin-top: 1.7rem;
+}
+
+/* SINGLE-PAGE-MAIN END */

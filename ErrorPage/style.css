@@ -1,0 +1,72 @@
+@import url(../Css/header.css);
+@import url(../Css/footer.css);
+
+body {
+    background-color: #F4E5D4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* capH1 start */
+.container .capH1 {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.container .capH1 h1 {
+    color: #1F315F;
+    text-align: center;
+    font-family: New York;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 568;
+    line-height: normal;
+    letter-spacing: 0.01125rem;
+}
+
+/* capH1 end */
+/* goHomePage start */
+
+
+.container .goHomePage {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+    margin-bottom: 5rem;
+}
+
+.container .goHomePage p {
+    color: #868686;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02788rem;
+}
+
+.container .goHomePage button {
+    width: 24.9375rem;
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #974D24;
+    background: rgba(151, 77, 36, 0.00);
+    margin-top: 2rem;
+}
+
+.container .goHomePage button a {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* goHomePage end */

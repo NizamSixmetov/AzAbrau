@@ -1,0 +1,127 @@
+@import url(../Css/header.css);
+@import url(../Css/footer.css);
+
+
+
+:root {
+    --index: calc(1vh + 1vw)
+}
+
+main {
+    background-color: #F4E5D4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.positionDiv img {
+    width: 100%;
+    position: relative;
+}
+
+/* CAPDIV START */
+.capDiv h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: calc(var(--index) * 11);
+    left: calc(var(--index) * 27);
+}
+
+/* CAPDIV END */
+
+/* CONTACT START */
+
+.contactFeedback {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 4.5rem 0;
+    margin-top: 7rem;
+    background-color: #E7D2BB;
+}
+
+.contactInfo {
+    margin: 30px;
+}
+
+.contactFeedback h3 {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3125rem;
+    text-transform: capitalize;
+    padding-bottom: 1.1rem;
+}
+
+
+.contactFeedback p {
+    color: #4C192A;
+    text-align: center;
+    font-family: Mondia;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.1875rem;
+}
+
+/* CONTACT END */
+/* FEEDBACK START */
+
+.feedback {
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.feedback input {
+    width: 18.4375rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    color: #E7D2BB;
+    background-color: #FFFAEF;
+    border: 1px solid #E7D2BB;
+    padding-left: 0.8rem;
+    margin: 0.5rem;
+}
+
+
+.feedback textarea {
+    background-color: #FFFAEF;
+    border: 1px solid #E7D2BB;
+    padding-top: 0.6rem;
+    padding-left: 0.8rem;
+    margin: 0.5rem;
+}
+
+.feedback button a {
+    color: #974D24;
+    text-align: center;
+    font-family: Arno Pro;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback button {
+    width: 11.5625rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background-color: #974D2400;
+    border: 1px solid #974D24;
+}
+
+/* FEEDBACK END */
